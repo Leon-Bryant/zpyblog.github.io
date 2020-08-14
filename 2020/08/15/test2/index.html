@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta name="description" content="不定时分享学习笔记，请多多指教！">
+  <meta name="keyword" content="">
+  
+    <link rel="shortcut icon" href="/css/images/logo.png">
+  
+  <title>
+    
+      test2 | 郑坪杨的个人博客
+    
+  </title>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow.min.css" rel="stylesheet">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/css/plugins/gitment.css">
+
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+  
+    
+<script src="/js/qrious.js"></script>
+
+  
+  
+    
+<script src="/js/gitment.js"></script>
+
+  
+  
+  
+    <!-- MathJax support START -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- MathJax support END -->
+  
+
+
+  
+<meta name="generator" content="Hexo 5.0.2"></head>
+<div class="wechat-share">
+  <img src="/css/images/logo.png" />
+</div>
+
+  <body>
+    <header class="header fixed-header">
+  <div class="header-container">
+    <a class="home-link" href="/">
+      <div class="logo"></div>
+      <span>郑坪杨的个人博客</span>
+    </a>
+    <ul class="right-list">
+      
+        <li class="list-item">
+          
+            <a href="/" class="item-link">Home</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/tags/" class="item-link">Tags</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/archives/" class="item-link">Archives</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/project/" class="item-link">Projects</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/about/" class="item-link">About</a>
+          
+        </li>
+      
+    </ul>
+    <div class="menu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div class="menu-mask">
+      <ul class="menu-list">
+        
+          <li class="menu-item">
+            
+              <a href="/" class="menu-link">Home</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/tags/" class="menu-link">Tags</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/archives/" class="menu-link">Archives</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/project/" class="menu-link">Projects</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/about/" class="menu-link">About</a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <div id="article-banner">
+  <h2>test2</h2>
+  <p class="post-date">2020-08-14</p>
+  <div class="arrow-down">
+    <a href="javascript:;"></a>
+  </div>
+</div>
+<main class="app-body flex-box">
+  <!-- Article START -->
+  <article class="post-article">
+    <section class="markdown-content"><h1 id="爬虫笔记"><a href="#爬虫笔记" class="headerlink" title="爬虫笔记"></a>爬虫笔记</h1><h2 id="第一章-网络请求"><a href="#第一章-网络请求" class="headerlink" title="第一章 网络请求"></a>第一章 网络请求</h2><h3 id="一-HTTP协议和chrome抓包工具"><a href="#一-HTTP协议和chrome抓包工具" class="headerlink" title="一. HTTP协议和chrome抓包工具"></a>一. HTTP协议和chrome抓包工具</h3><h3 id="什么是http和https协议："><a href="#什么是http和https协议：" class="headerlink" title="什么是http和https协议："></a>什么是http和https协议：</h3><p>​    HTTP协议：全称是HwperTextTransfer Protocol，中文意思是超文本传输协议，是一种发布和接收HTML页面的方法。服务器端口号是80端口。<br>​            HTTPS协议；是HTTP协议的加密版本，在HTTP下加入了SSL层，颜务器端口号是443端口。</p>
+<h3 id="在浏览器中发送一个http请求的过程："><a href="#在浏览器中发送一个http请求的过程：" class="headerlink" title="在浏览器中发送一个http请求的过程："></a>在浏览器中发送一个http请求的过程：</h3><p>​            1.当用户在浏览器的地址栏中输入一个URL并按回车键之后，浏览器会向HTTP服务器发送HTTP请求。HTTP请求主要分为“Get”和“Post”两种方法。<br>​            2.当我们在浏览器输入URL http:/<a target="_blank" rel="noopener" href="http://www.baidu.com的时候,浏览器发送一个request请求去获取htp//www.baidu.com%E7%9A%84htm%E6%96%87%E4%BB%B6%EF%BC%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%8AResponse%E6%96%87%E4%BB%B6%E5%AF%B9%E8%B1%A1%E5%8F%91%E9%80%81%E5%9B%9E%E7%BB%99%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%82">www.baidu.com的时候，浏览器发送一个Request请求去获取htp://www.baidu.com的htm文件，服务器把Response文件对象发送回给浏览器。</a><br>​            3.浏览器分析Response中的HTML，发现其中引用了很多其他文件，比如mages文件，CSS文件，JS文件。刻货器会自动再次发送Request去获取图片，CSS文件，或者JS文件。<br>​            4.当所有的文件都下载成功后，网页会根据HTML语法结构，完整的显示出来了。</p>
+<h3 id="url详解"><a href="#url详解" class="headerlink" title="url详解"></a>url详解</h3><p>URL是Unifora Resource Locator的简写，统一资源定位符。一个URL由以下几部分组成：</p>
+<p>​            <strong>schene://host:port/path/？query-string-xxx#anchor</strong></p>
+<p>scheme：代表的是访问的协议，一般为http或者https以及代p等。<br>        host：主机名，域名，比如ww.baidu.com。<br>        port：端口号。当你访问一个网站的时候，浏览器默认使用80端口。<br>        path：查找路径。比如：ww.jianshu.com/trending/now，后面的trending/now 就是path。<br>        query-string：查询字符串，比如：wwr.baidu.con/s7we-python，后面的wd-oython 就是查询字符串。<br>        anchor：锚点，后台一般不用管，前端用来做页面定位的。<br>        在浏览器中请求一个url，浏览器会对这个url进行一个编码。除英文字母，数字和部分符号外，其他的全部使用百分号+十六进制码值进行编码。</p>
+<h3 id="常用的请求方法"><a href="#常用的请求方法" class="headerlink" title="常用的请求方法"></a>常用的请求方法</h3><p>在Http协议中，定义了八种请求方法。这里介绍两种常用的请求方法，分别是set请求和post请求。<br>        1.get请求：一般情况下，只从服务器获取数据下来，并不会对服务器资源产生任何影响的时候会使用get 请求。<br>        2.post 请求：向服务器发送数据（登录）、上传文件等，会对服务器资源产生影响的时候会使用post请求。<br>以上是在网站开发中常用的两种方法。并且一般情况下都会遵循使用的原则。但是有的网站和服务器为了做反爬虫机制，也经常会不按常理出牌，有可能一个应该使用aet方法的请求就一定要改成post请求，这个要视情况而定。</p>
+<h3 id="请求头常见参数"><a href="#请求头常见参数" class="headerlink" title="请求头常见参数"></a>请求头常见参数</h3><p>在http协议中，向服务器发送一个请求，数据分为三部分，第一个是把数据放在ul中，第二个是把数据放在boay中（在post请求中），第三个就是把数据放在head中。这里介绍在网络虫中经常会用到的一些请求头参数：<br>        1.user-Agent：浏览器名称。这个在网络爬虫中经常会被使用到。请求一个网页的时候，服务器通过这个参数就可以知道这个请求是由哪种刻览器发送的。如果我们是通过爬虫发送请求，那么我们user-Agent 就是aythcn，这对于那些有反爬虫机制的网站来说，可以轻易的判断你这个请求是爬虫。因此我们要经常设置这个植为一些浏览器的值，来伪装我们的爬虫。<br>        2.Referer；表明当前这个请求是从哪个ur1过来的。这个一般也可以用来做反爬虫技术。如果不是从指定页面过来的，那么就不做相关的响应。<br>        3.cookie:http 协议是无状态的。也就是同一个人发送了两次请求，服务器没有能力知道这两个请求是否来自同一个人。因此这时候就用cookie来做标识。一般如果想要做登录后才能访问的网站，那么就需要发送cookie信息了。</p>
+<h3 id="常见响应状态码"><a href="#常见响应状态码" class="headerlink" title="常见响应状态码"></a>常见响应状态码</h3><p>1.200：请求正常，服务器正常的返回数据。<br>        2.301：永久重定向。比如在访问ww.jingdong.com的时候会重定向到ww.jc.com。<br>        3.302：临时重定向。比如在访问一个需要登录的页面的时候，而此时没有登录，那么就会重定向到登录页面。<br>        4.400：请求的ur1在服务器上找不到。换句话说就是请求ur1错误。<br>        5.403：服务器拒绝访问，权限不够。<br>        6.500：服务器内部错误。可能是服务器出现bug了。</p>
+</section>
+    <!-- Tags START -->
+    
+    <!-- Tags END -->
+    <!-- NAV START -->
+    
+  <div class="nav-container">
+    <!-- reverse left and right to put prev and next in a more logic postition -->
+    
+      <a class="nav-left" href="/2020/08/15/test1/">
+        <span class="nav-arrow">← </span>
+        
+          test1
+        
+      </a>
+    
+    
+      <a class="nav-right" href="/2020/08/15/test3/">
+        
+          test3
+        
+        <span class="nav-arrow"> →</span>
+      </a>
+    
+  </div>
+
+    <!-- NAV END -->
+    <!-- 打赏 START -->
+    
+      <div class="money-like">
+        <div class="reward-btn">
+          赏
+          <span class="money-code">
+            <span class="alipay-code">
+              <div class="code-image"></div>
+              <b>使用支付宝打赏</b>
+            </span>
+            <span class="wechat-code">
+              <div class="code-image"></div>
+              <b>使用微信打赏</b>
+            </span>
+          </span>
+        </div>
+        <p class="notice">若你觉得我的文章对你有帮助，欢迎点击上方按钮对我打赏</p>
+      </div>
+    
+    <!-- 打赏 END -->
+    <!-- 二维码 START -->
+    
+      <div class="qrcode">
+        <canvas id="share-qrcode"></canvas>
+        <p class="notice">扫描二维码，分享此文章</p>
+      </div>
+    
+    <!-- 二维码 END -->
+    
+      <!-- Gitment START -->
+      <div id="comments"></div>
+      <!-- Gitment END -->
+    
+  </article>
+  <!-- Article END -->
+  <!-- Catalog START -->
+  
+    <aside class="catalog-container">
+  <div class="toc-main">
+    <strong class="toc-title">Catalog</strong>
+    
+      <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0"><span class="toc-nav-text">爬虫笔记</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82"><span class="toc-nav-text">第一章 网络请求</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%B8%80-HTTP%E5%8D%8F%E8%AE%AE%E5%92%8Cchrome%E6%8A%93%E5%8C%85%E5%B7%A5%E5%85%B7"><span class="toc-nav-text">一. HTTP协议和chrome抓包工具</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFhttp%E5%92%8Chttps%E5%8D%8F%E8%AE%AE%EF%BC%9A"><span class="toc-nav-text">什么是http和https协议：</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E5%8F%91%E9%80%81%E4%B8%80%E4%B8%AAhttp%E8%AF%B7%E6%B1%82%E7%9A%84%E8%BF%87%E7%A8%8B%EF%BC%9A"><span class="toc-nav-text">在浏览器中发送一个http请求的过程：</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#url%E8%AF%A6%E8%A7%A3"><span class="toc-nav-text">url详解</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95"><span class="toc-nav-text">常用的请求方法</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E8%AF%B7%E6%B1%82%E5%A4%B4%E5%B8%B8%E8%A7%81%E5%8F%82%E6%95%B0"><span class="toc-nav-text">请求头常见参数</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%B8%B8%E8%A7%81%E5%93%8D%E5%BA%94%E7%8A%B6%E6%80%81%E7%A0%81"><span class="toc-nav-text">常见响应状态码</span></a></li></ol></li></ol></li></ol>
+    
+  </div>
+</aside>
+  
+  <!-- Catalog END -->
+</main>
+
+<script>
+  (function () {
+    var url = 'http://yoursite.com/2020/08/15/test2/';
+    var banner = ''
+    if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
+      $('#article-banner').css({
+        'background-image': 'url(' + banner + ')'
+      })
+    } else {
+      $('#article-banner').geopattern(url)
+    }
+    $('.header').removeClass('fixed-header')
+
+    // error image
+    $(".markdown-content img").on('error', function() {
+      $(this).attr('src', 'http://file.muyutech.com/error-img.png')
+      $(this).css({
+        'cursor': 'default'
+      })
+    })
+
+    // zoom image
+    $(".markdown-content img").on('click', function() {
+      var src = $(this).attr('src')
+      if (src !== 'http://file.muyutech.com/error-img.png') {
+        var imageW = $(this).width()
+        var imageH = $(this).height()
+
+        var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
+        zoom = zoom < 1 ? 1 : zoom
+        zoom = zoom > 2 ? 2 : zoom
+        var transY = (($(window).height() - imageH) / 2).toFixed(2)
+
+        $('body').append('<div class="image-view-wrap"><div class="image-view-inner"><img src="'+ src +'" /></div></div>')
+        $('.image-view-wrap').addClass('wrap-active')
+        $('.image-view-wrap img').css({
+          'width': `${imageW}`,
+          'transform': `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`
+        })
+        $('html').css('overflow', 'hidden')
+
+        $('.image-view-wrap').on('click', function() {
+          $(this).remove()
+          $('html').attr('style', '')
+        })
+      }
+    })
+  })();
+</script>
+
+
+  <script>
+    var qr = new QRious({
+      element: document.getElementById('share-qrcode'),
+      value: document.location.href
+    });
+  </script>
+
+
+
+  <script>
+    var gitmentConfig = "yanm1ng";
+    if (gitmentConfig !== 'undefined') {
+      var gitment = new Gitment({
+        id: "test2",
+        owner: "yanm1ng",
+        repo: "yanm1ng.github.io",
+        oauth: {
+          client_id: "0f87e490e00ee3fd87ef",
+          client_secret: "4a9d2b148e7971c2201ad12131ce8bf8159ccd2e"
+        },
+        theme: {
+          render(state, instance) {
+            const container = document.createElement('div')
+            container.lang = "en-US"
+            container.className = 'gitment-container gitment-root-container'
+            container.appendChild(instance.renderHeader(state, instance))
+            container.appendChild(instance.renderEditor(state, instance))
+            container.appendChild(instance.renderComments(state, instance))
+            container.appendChild(instance.renderFooter(state, instance))
+            return container;
+          }
+        }
+      })
+      gitment.render(document.getElementById('comments'))
+    }
+  </script>
+
+
+
+
+    <div class="scroll-top">
+  <span class="arrow-icon"></span>
+</div>
+    <footer class="app-footer">
+  <p class="copyright">
+    &copy; 2020 | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
+    <br>
+    Theme by <a target="_blank" rel="noopener" href="https://github.com/yanm1ng">yanm1ng</a>
+  </p>
+</footer>
+
+<script>
+  function async(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+</script>
+<script>
+  async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+    FastClick.attach(document.body);
+  })
+</script>
+
+<script>
+  var hasLine = 'true';
+  async("//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js", function(){
+    $('figure pre').each(function(i, block) {
+      var figure = $(this).parents('figure');
+      if (hasLine === 'false') {
+        figure.find('.gutter').hide();
+      }
+      var lang = figure.attr('class').split(' ')[1] || 'code';
+      var codeHtml = $(this).html();
+      var codeTag = document.createElement('code');
+      codeTag.className = lang;
+      codeTag.innerHTML = codeHtml;
+      $(this).attr('class', '').empty().html(codeTag);
+      figure.attr('data-lang', lang.toUpperCase());
+      hljs.highlightBlock(block);
+    });
+  })
+</script>
+<!-- Baidu Tongji -->
+
+
+<script src="/js/script.js"></script>
+
+  </body>
+</html>
