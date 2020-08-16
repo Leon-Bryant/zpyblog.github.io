@@ -2,6 +2,23 @@
 <search>
   <entry>
     <title>test1</title>
+    <url>/2020/08/15/test1(%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%A4%8D%E4%BB%B6)/</url>
+    <content><![CDATA[<p>此文档用于测试！</p>
+<p>opencv</p>
+<p>代码<code>python</code></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> cv2 <span class="keyword">as</span> cv</span><br></pre></td></tr></table></figure>
+
+<p><img src="http://qf3tipbvh.hn-bkt.clouddn.com/%E7%A7%91%E6%AF%94.jpg" alt="科比"></p>
+]]></content>
+      <categories>
+        <category>视觉</category>
+      </categories>
+      <tags>
+        <tag>opencv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test1</title>
     <url>/2020/08/15/test1/</url>
     <content><![CDATA[<p>此文档用于测试！</p>
 <p>opencv</p>
