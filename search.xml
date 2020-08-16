@@ -18,24 +18,18 @@
       </tags>
   </entry>
   <entry>
-    <title>test1</title>
-    <url>/2020/08/15/test1/</url>
-    <content><![CDATA[<p>此文档用于测试！</p>
-<p>opencv</p>
-<p>代码<code>python</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> cv2 <span class="keyword">as</span> cv</span><br></pre></td></tr></table></figure>
+    <title>test3</title>
+    <url>/2020/08/17/test3/</url>
+    <content><![CDATA[<h1 id="测试图床上传功能"><a href="#测试图床上传功能" class="headerlink" title="测试图床上传功能"></a>测试图床上传功能</h1><img src="http://qf3tipbvh.hn-bkt.clouddn.com/zpy.jpg" alt="zpy" style="zoom: 15%;" />
 
-
-
-
-
-<p><img src="http://qf3tipbvh.hn-bkt.clouddn.com/%E7%A7%91%E6%AF%94.jpg" alt="科比"></p>
+<p>这是上传的图片</p>
+<p>图床：七牛云</p>
 ]]></content>
       <categories>
-        <category>视觉</category>
+        <category>新的分类</category>
       </categories>
       <tags>
-        <tag>opencv</tag>
+        <tag>测试图床</tag>
       </tags>
   </entry>
   <entry>
@@ -55,6 +49,27 @@
       </categories>
       <tags>
         <tag>爬虫笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test1</title>
+    <url>/2020/08/15/test1/</url>
+    <content><![CDATA[<p>此文档用于测试！</p>
+<p>opencv</p>
+<p>代码<code>python</code></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> cv2 <span class="keyword">as</span> cv</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p><img src="http://qf3tipbvh.hn-bkt.clouddn.com/%E7%A7%91%E6%AF%94.jpg" alt="科比"></p>
+]]></content>
+      <categories>
+        <category>视觉</category>
+      </categories>
+      <tags>
+        <tag>opencv</tag>
       </tags>
   </entry>
 </search>
