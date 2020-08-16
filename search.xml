@@ -5,7 +5,7 @@
     <url>/2020/08/16/1/</url>
     <content><![CDATA[<h1 id="爬虫学习路线"><a href="#爬虫学习路线" class="headerlink" title="爬虫学习路线"></a>爬虫学习路线</h1>]]></content>
       <categories>
-        <category>爬虫</category>
+        <category>-python 爬虫</category>
       </categories>
       <tags>
         <tag>爬虫学习笔记</tag>
@@ -87,7 +87,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">cookiejar = MozillaCookieJar(<span class="string">&quot;cookie.txt&quot;</span>) <span class="comment"># 火狐公司的cookie格式，文件名为cookie</span></span><br><span class="line">handler = request.HTTPCokkieProcessor(cookiejar)</span><br><span class="line">opener = request.build_opener(handler)</span><br><span class="line">headers = &#123;...&#125;</span><br><span class="line">req = request.Request(url, headers)</span><br><span class="line">resp = opener.open(req)</span><br><span class="line">print(resp.read())</span><br><span class="line">cookiejar.save(ignore_discard=<span class="literal">True</span>, ignore_expires=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>爬虫</category>
+        <category>python爬虫</category>
       </categories>
       <tags>
         <tag>爬虫学习笔记</tag>
@@ -335,7 +335,7 @@
 <p>compile：将常用的正则表达式进行编译，可以在多次访问中提高效率。尽量使用原生字符。引入re.VERBOSE参数可以输入多行的正则表达式以及添加注释。</p>
 ]]></content>
       <categories>
-        <category>爬虫</category>
+        <category>python爬虫</category>
       </categories>
       <tags>
         <tag>爬虫笔记</tag>
@@ -402,7 +402,7 @@
 </ol>
 ]]></content>
       <categories>
-        <category>爬虫</category>
+        <category>python爬虫</category>
       </categories>
       <tags>
         <tag>爬虫学习笔记</tag>
