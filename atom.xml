@@ -84,7 +84,7 @@
     <link href="https://zhengpingyang.gitee.io/2020/08/16/%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     <id>https://zhengpingyang.gitee.io/2020/08/16/%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</id>
     <published>2020-08-16T00:00:00.000Z</published>
-    <updated>2020-08-16T18:11:23.435Z</updated>
+    <updated>2020-08-16T18:41:08.184Z</updated>
     
     <content type="html"><![CDATA[<h1 id="爬虫学习路线"><a href="#爬虫学习路线" class="headerlink" title="爬虫学习路线"></a>爬虫学习路线</h1>]]></content>
     
@@ -97,6 +97,25 @@
     
     
     <category term="爬虫学习笔记" scheme="https://zhengpingyang.gitee.io/tags/%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更新内容&amp;说明</title>
+    <link href="https://zhengpingyang.gitee.io/2020/08/14/%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9%E5%8F%8A%E8%AF%B4%E6%98%8E/"/>
+    <id>https://zhengpingyang.gitee.io/2020/08/14/%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9%E5%8F%8A%E8%AF%B4%E6%98%8E/</id>
+    <published>2020-08-14T00:00:00.000Z</published>
+    <updated>2020-08-16T18:40:52.008Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="2020-08-14"><a href="#2020-08-14" class="headerlink" title="2020-08-14"></a>2020-08-14</h1><p>基于<code>Hexo</code> + <code>Gitee</code>创建此博客！</p><h1 id="2020-08-15"><a href="#2020-08-15" class="headerlink" title="2020-08-15"></a>2020-08-15</h1><p>更新博客主题（nexT），并进行主题优化！</p><h1 id="2020-08-16"><a href="#2020-08-16" class="headerlink" title="2020-08-16"></a>2020-08-16</h1><p>更新python爬虫系列笔记——基础篇！</p>]]></content>
+    
+    
+    <summary type="html">本博客每次更新内容及相关说明！</summary>
+    
+    
+    
+    
+    <category term="hexo" scheme="https://zhengpingyang.gitee.io/tags/hexo/"/>
     
   </entry>
   
