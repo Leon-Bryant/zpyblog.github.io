@@ -7,6 +7,12 @@
 <p>opencv</p>
 <p>代码<code>python</code></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> cv2 <span class="keyword">as</span> cv</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p><img src="http://qf3tipbvh.hn-bkt.clouddn.com/%E7%A7%91%E6%AF%94.jpg" alt="科比"></p>
 ]]></content>
       <categories>
         <category>视觉</category>
@@ -27,6 +33,9 @@
 <h3 id="请求头常见参数"><a href="#请求头常见参数" class="headerlink" title="请求头常见参数"></a>请求头常见参数</h3><p>在http协议中，向服务器发送一个请求，数据分为三部分，第一个是把数据放在ul中，第二个是把数据放在boay中（在post请求中），第三个就是把数据放在head中。这里介绍在网络虫中经常会用到的一些请求头参数：<br>        1.user-Agent：浏览器名称。这个在网络爬虫中经常会被使用到。请求一个网页的时候，服务器通过这个参数就可以知道这个请求是由哪种刻览器发送的。如果我们是通过爬虫发送请求，那么我们user-Agent 就是aythcn，这对于那些有反爬虫机制的网站来说，可以轻易的判断你这个请求是爬虫。因此我们要经常设置这个植为一些浏览器的值，来伪装我们的爬虫。<br>        2.Referer；表明当前这个请求是从哪个ur1过来的。这个一般也可以用来做反爬虫技术。如果不是从指定页面过来的，那么就不做相关的响应。<br>        3.cookie:http 协议是无状态的。也就是同一个人发送了两次请求，服务器没有能力知道这两个请求是否来自同一个人。因此这时候就用cookie来做标识。一般如果想要做登录后才能访问的网站，那么就需要发送cookie信息了。</p>
 <h3 id="常见响应状态码"><a href="#常见响应状态码" class="headerlink" title="常见响应状态码"></a>常见响应状态码</h3><p>1.200：请求正常，服务器正常的返回数据。<br>        2.301：永久重定向。比如在访问ww.jingdong.com的时候会重定向到ww.jc.com。<br>        3.302：临时重定向。比如在访问一个需要登录的页面的时候，而此时没有登录，那么就会重定向到登录页面。<br>        4.400：请求的ur1在服务器上找不到。换句话说就是请求ur1错误。<br>        5.403：服务器拒绝访问，权限不够。<br>        6.500：服务器内部错误。可能是服务器出现bug了。</p>
 ]]></content>
+      <categories>
+        <category>爬虫</category>
+      </categories>
       <tags>
         <tag>爬虫笔记</tag>
       </tags>
