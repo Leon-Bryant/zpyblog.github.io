@@ -3,11 +3,11 @@
   <title>羊羊博客</title>
   
   <subtitle>黑白世界，有你看不到的色彩！</subtitle>
-  <link href="https://www.zhengpingyang.site/atom.xml" rel="self"/>
+  <link href="https://zhengpingyang.gitee.io/atom.xml" rel="self"/>
   
-  <link href="https://www.zhengpingyang.site/"/>
-  <updated>2020-08-15T11:47:20.294Z</updated>
-  <id>https://www.zhengpingyang.site/</id>
+  <link href="https://zhengpingyang.gitee.io/"/>
+  <updated>2020-08-16T03:07:57.241Z</updated>
+  <id>https://zhengpingyang.gitee.io/</id>
   
   <author>
     <name>郑坪杨</name>
@@ -18,29 +18,29 @@
   
   <entry>
     <title>test1</title>
-    <link href="https://www.zhengpingyang.site/2020/08/15/test1/"/>
-    <id>https://www.zhengpingyang.site/2020/08/15/test1/</id>
+    <link href="https://zhengpingyang.gitee.io/2020/08/15/test1/"/>
+    <id>https://zhengpingyang.gitee.io/2020/08/15/test1/</id>
     <published>2020-08-14T23:03:20.000Z</published>
-    <updated>2020-08-15T11:47:20.294Z</updated>
+    <updated>2020-08-16T03:07:57.241Z</updated>
     
-    <content type="html"><![CDATA[<p>此文档用于测试！</p><p>opencv</p><p>代码<code>python</code></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> cv2 <span class="keyword">as</span> cv</span><br></pre></td></tr></table></figure><script id="hexo-configurations">    var NexT = window.NexT || {};    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};  </script><script id<script id="hexo-configurations">    var NexT = window.NexT || {};    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};  </script>]]></content>
+    <content type="html"><![CDATA[<p>此文档用于测试！</p><p>opencv</p><p>代码<code>python</code></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> cv2 <span class="keyword">as</span> cv</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">此篇文章用于测试！</summary>
     
     
     
-    <category term="视觉" scheme="https://www.zhengpingyang.site/categories/%E8%A7%86%E8%A7%89/"/>
+    <category term="视觉" scheme="https://zhengpingyang.gitee.io/categories/%E8%A7%86%E8%A7%89/"/>
     
     
-    <category term="opencv" scheme="https://www.zhengpingyang.site/tags/opencv/"/>
+    <category term="opencv" scheme="https://zhengpingyang.gitee.io/tags/opencv/"/>
     
   </entry>
   
   <entry>
     <title>test2</title>
-    <link href="https://www.zhengpingyang.site/2020/08/15/test2/"/>
-    <id>https://www.zhengpingyang.site/2020/08/15/test2/</id>
+    <link href="https://zhengpingyang.gitee.io/2020/08/15/test2/"/>
+    <id>https://zhengpingyang.gitee.io/2020/08/15/test2/</id>
     <published>2020-08-14T23:03:20.000Z</published>
     <updated>2020-08-15T08:00:06.659Z</updated>
     
@@ -52,7 +52,7 @@
     
     
     
-    <category term="爬虫笔记" scheme="https://www.zhengpingyang.site/tags/%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/"/>
+    <category term="爬虫笔记" scheme="https://zhengpingyang.gitee.io/tags/%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
