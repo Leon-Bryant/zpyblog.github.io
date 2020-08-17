@@ -6,7 +6,7 @@
   <link href="https://zhengpingyang.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://zhengpingyang.gitee.io/"/>
-  <updated>2020-08-16T18:11:51.004Z</updated>
+  <updated>2020-08-17T05:55:49.730Z</updated>
   <id>https://zhengpingyang.gitee.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://zhengpingyang.gitee.io/2020/08/17/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://zhengpingyang.gitee.io/2020/08/17/%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-08-17T13:55:49.000Z</published>
+    <updated>2020-08-17T05:55:49.730Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试图床</title>
+    <link href="https://zhengpingyang.gitee.io/2020/08/17/%E6%B5%8B%E8%AF%95%E5%9B%BE%E5%BA%8A/"/>
+    <id>https://zhengpingyang.gitee.io/2020/08/17/%E6%B5%8B%E8%AF%95%E5%9B%BE%E5%BA%8A/</id>
+    <published>2020-08-17T13:33:00.000Z</published>
+    <updated>2020-08-17T05:57:46.354Z</updated>
+    
+    <content type="html"><![CDATA[<p>此文档用于测试gitee图床！！</p><img src="/home/zpy/zpyblog/source/_posts/测试/科比.jpg" alt="科比" style="zoom:80%;" /><p>![2020-08-16 18-56-27 的屏幕截图](/home/zpy/zpyblog/source/_posts/测试/2020-08-16 18-56-27 的屏幕截图.png)</p><p>![2020-08-16 09-30-47 的屏幕截图](/home/zpy/zpyblog/source/_posts/测试/2020-08-16 09-30-47 的屏幕截图.png)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;此文档用于测试gitee图床！！&lt;/p&gt;
+&lt;img src=&quot;/home/zpy/zpyblog/source/_posts/测试/科比.jpg&quot; alt=&quot;科比&quot; style=&quot;zoom:80%;&quot; /&gt;
+
+
+
+
+
+
+
+
+
+&lt;p&gt;![2020-08-16 18-56-27</summary>
+      
+    
+    
+    
+    
+    <category term="测试" scheme="https://zhengpingyang.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>爬虫学习笔记——基础篇（三）</title>

@@ -23,6 +23,32 @@
       </tags>
   </entry>
   <entry>
+    <title>测试</title>
+    <url>/2020/08/17/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>测试图床</title>
+    <url>/2020/08/17/%E6%B5%8B%E8%AF%95%E5%9B%BE%E5%BA%8A/</url>
+    <content><![CDATA[<p>此文档用于测试gitee图床！！</p>
+<img src="/home/zpy/zpyblog/source/_posts/测试/科比.jpg" alt="科比" style="zoom:80%;" />
+
+
+
+
+
+
+
+
+
+<p>![2020-08-16 18-56-27 的屏幕截图](/home/zpy/zpyblog/source/_posts/测试/2020-08-16 18-56-27 的屏幕截图.png)</p>
+<p>![2020-08-16 09-30-47 的屏幕截图](/home/zpy/zpyblog/source/_posts/测试/2020-08-16 09-30-47 的屏幕截图.png)</p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>爬虫学习笔记——基础篇（三）</title>
     <url>/2020/08/16/%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%88%E4%B8%89%EF%BC%89/</url>
     <content><![CDATA[<h1 id="爬虫学习笔记"><a href="#爬虫学习笔记" class="headerlink" title="爬虫学习笔记"></a>爬虫学习笔记</h1><h2 id="第三章-数据文件处理"><a href="#第三章-数据文件处理" class="headerlink" title="第三章 数据文件处理"></a>第三章 数据文件处理</h2><h3 id="一-json文件处理"><a href="#一-json文件处理" class="headerlink" title="一. json文件处理"></a>一. json文件处理</h3><ol>
