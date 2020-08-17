@@ -2,7 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zhengpingyang.gitee.io/2020/08/16/%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%88%E4%B8%89%EF%BC%89/</loc>
+    <loc>https://zhengpingyang.gitee.io/sitemap/index.html</loc>
+    
+    <lastmod>2020-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhengpingyang.gitee.io/2020/08/17/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%952(%E5%A4%8D%E4%BB%B6)/</loc>
+    
+    <lastmod>2020-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhengpingyang.gitee.io/2020/08/17/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%952/</loc>
+    
+    <lastmod>2020-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhengpingyang.gitee.io/2020/08/17/%E6%A0%87%E7%AD%BE%E6%B5%8B%E8%AF%95/</loc>
+    
+    <lastmod>2020-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhengpingyang.gitee.io/2020/08/14/%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9%E5%8F%8A%E8%AF%B4%E6%98%8E/</loc>
     
     <lastmod>2020-08-17</lastmod>
     
@@ -23,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://zhengpingyang.gitee.io/2020/08/16/%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
+    <loc>https://zhengpingyang.gitee.io/2020/08/16/%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%88%E4%B8%89%EF%BC%89/</loc>
     
     <lastmod>2020-08-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zhengpingyang.gitee.io/2020/08/14/%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9%E5%8F%8A%E8%AF%B4%E6%98%8E/</loc>
+    <loc>https://zhengpingyang.gitee.io/2020/08/16/%E7%88%AC%E8%99%AB%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
     
     <lastmod>2020-08-17</lastmod>
     
@@ -40,13 +68,6 @@
     <loc>https://zhengpingyang.gitee.io/2020/08/17/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2020-08-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhengpingyang.gitee.io/sitemap/index.html</loc>
-    
-    <lastmod>2020-08-16</lastmod>
     
   </url>
   
@@ -95,14 +116,21 @@
   </url>
   
   <url>
-    <loc>https://zhengpingyang.gitee.io/tags/%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://zhengpingyang.gitee.io/tags/%E6%A0%87%E7%AD%BE1/</loc>
     <lastmod>2020-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhengpingyang.gitee.io/tags/hexo/</loc>
+    <loc>https://zhengpingyang.gitee.io/tags/python%E7%88%AC%E8%99%AB/</loc>
+    <lastmod>2020-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhengpingyang.gitee.io/tags/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2020-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -112,13 +140,6 @@
   
   <url>
     <loc>https://zhengpingyang.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhengpingyang.gitee.io/categories/python%E7%88%AC%E8%99%AB/</loc>
     <lastmod>2020-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
